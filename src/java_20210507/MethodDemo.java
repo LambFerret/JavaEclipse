@@ -1,4 +1,5 @@
 package java_20210507;
+
 // <<인스턴스 메소드는 인스턴스가 불러와지지않으면 사용불가>>
 public class MethodDemo {
 	public int plus(int a, int b) {
@@ -34,13 +35,14 @@ public class MethodDemo {
 		return arrays;
 	}
 
-	public void MonthlyCalender(int year, int month){
+// [[전역변수 > 지역변수]]
+	public void MonthlyCalender(int year, int month) {
 		for (int i = 0; i < month; i++) {
 			System.out.print(i + "\t");
 			if (i % 7 == 0)
 				System.out.println();
-		int[][] arr1= {{1,2},{3,4}};
-	}
+			int[][] arr1 = { { 1, 2 }, { 3, 4 } };
+		}
 	}
 
 	public static void main(String[] args) {
@@ -57,8 +59,8 @@ public class MethodDemo {
 			System.out.print(i + "\t");
 			if (i % 7 == 0)
 				System.out.println();
-
 		}
+		
 
 	}
 

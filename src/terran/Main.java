@@ -10,7 +10,7 @@ public class Main {
 		boolean isGame = true;
 		while (isGame == true) {
 			System.out.println("SCV");
-			String isnput = sc.next();
+			String input = sc.next();
 			byte clicked = 0;
 			while (clicked == 0) {
 				switch (input) {
