@@ -34,4 +34,8 @@ public class GregorianCalender {
 	public int leap() {
 		return (years / 4) - (years / 100) + (years / 400);
 	}
+	
+	public int getCount() {
+		return 1;
+	}
 }
