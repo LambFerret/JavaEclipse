@@ -8,13 +8,21 @@ public class DeptMain {
 		// TODO Auto-generated method stub
 		DeptDao dao = DeptDao.getInstance();
 		int start = 0;
-		int len = 10; 
-		ArrayList<DeptDto> arr = dao.select(start,len);
+		int len = 10;
+		ArrayList<DeptDto> arr = dao.select(start, len);
 		for (DeptDto dto : arr) {
-			int no =dto.getno();
+			int no = dto.getno();
 			String name = dto.getname();
 			String loc = dto.getLoc();
 			System.out.printf("%d,%s,%s%n", no, name, loc);
+		}
+		int suc = 1;
+		switch (suc) {
+		case 1: {
+			boolean fal = false;
+			break;
+		}
+		}
 	}
 
-}}
+}
